@@ -6,14 +6,14 @@ This project investigates the 5-year financial collapse of the fictional company
 Using Python, pandas, NumPy, and matplotlib, we analyze profitability, expenses, and debt to uncover the root causes of the crisis.
 
 ---
-
 ## 📁 Project Structure
 
-
+```
 Financial-Crisis-Analysis/
-├── financial_crisis_data.csv ← Clean dataset (5 years of data)
-├── analysis.ipynb ← Full Jupyter analysis
-└── README.md ← Documentation
+├── financial_crisis_data.csv   ← Clean dataset (5 years of data)
+├── analysis.ipynb              ← Full Jupyter analysis
+└── README.md                   ← Documentation
+```
 
 ---
 
