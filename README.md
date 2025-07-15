@@ -45,12 +45,11 @@ Data source: [`techno_prom_financials.csv`](techno_prom_financials.csv)
 
 ## 📂 Data Preprocessing
 
-Before analysis, the data was:
-- Validated for consistency and missing values  
-- Converted to appropriate data types (float)  
-- Checked for duplicates and structural anomalies  
-- Reshaped and formatted for visualization and KPI calculation  
-- Analyzed with `.describe()` and grouped by year
+Before analysis, the dataset underwent a basic preprocessing stage:
+- Checked for consistency and missing values
+- Converted to appropriate data types
+- Cleaned from duplicates and anomalies
+- Formatted for further visualization and metric calculations
 
 ---
 
