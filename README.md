@@ -1,10 +1,10 @@
-# 📉 Technoprom Financial Crisis Analysis (EDA Project)
+# 📉 Technoprom Ltd.: Financial Crisis Analysis (EDA Project)
 
-📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/CloudDataPalina/blob/main/BankruptcyAnalysis/analysis.ipynb)
-
+📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Technoprom-Financial-Analysis/blob/main/analysis.ipynb)
 
 This project investigates the 5-year financial collapse of the fictional company **Technoprom Ltd.**  
 Using Python, pandas, NumPy, and matplotlib, we analyze profitability, expenses, and debt to uncover the root causes of the crisis.
+
 
 ---
 
@@ -38,7 +38,19 @@ The dataset includes:
 - 🧾 Cash Flow, Inventory, Payables
 - 👥 Employee Headcount
 
-Data source: [`techno_prom_financials.csv`](techno_prom_financials.csv)
+Data source: [`techno_prom_financials.csv`](techno_prom_financials.csv)  
+*The dataset was manually created by the author for this project.*
+
+---
+
+## 📂 Data Preprocessing
+
+Before analysis, the data was:
+- Validated for consistency and missing values  
+- Converted to appropriate data types (float)  
+- Checked for duplicates and structural anomalies  
+- Reshaped and formatted for visualization and KPI calculation  
+- Analyzed with `.describe()` and grouped by year
 
 ---
 
@@ -47,43 +59,41 @@ Data source: [`techno_prom_financials.csv`](techno_prom_financials.csv)
 1. Load and explore the dataset  
 2. Compute and visualize profitability over time  
 3. Analyze cost structure and debt accumulation  
-4. Derive insights and root causes of collapse  
-5. Provide actionable recommendations
+4. Identify turning points and causes of collapse  
+5. Derive actionable business insights
 
 ---
 
 ## 📈 Visualizations
 
-- 📉 **Net Profit vs Year-End Debt** — analysis of declining profit and rising debt  
-- 📊 **5-Year Change in Financial Indicators** — percentage changes in key metrics  
-- 📈 **Trendlines of Gross, Operating, and Net Profit Margins** — visualization of margin deterioration over time  
-- 🥧 **Expense Structure in Year 5** — pie chart of cost distribution in the final year  
-- 📉 **Revenue vs Operating Expenses** — identifying the tipping point when expenses exceeded revenue  
+- 📉 **Net Profit vs Year-End Debt** — declining profitability vs rising debt  
+- 📊 **5-Year Change in Financial Indicators** — percent changes in key metrics  
+- 📈 **Trendlines of Gross, Operating, and Net Profit Margins** — margin deterioration over time  
+- 🥧 **Expense Structure in Year 5** — cost distribution in the final year  
+- 🔻 **Revenue vs Operating Expenses** — visualizing when costs exceeded income  
 
-**Note:** The dataset was manually created by the author for the purposes of this project. 
-
-*(All visualizations are available in `analysis.ipynb`)*
-
+📌 *All visualizations are included in [`analysis.ipynb`](analysis.ipynb).*
 
 ---
 
 ## 🔍 Key Findings
--  Revenue declined by 38.5% (from 520K to 320K) — indicating loss of clients or demand
--  COGS increased by 13.8% (from 290K to 330K) — despite falling sales, efficiency worsened
--  Net Profit dropped from +100K to –290K — a full reversal into deep losses
--  Year-End Debt grew from 80K to 520K — a 6.5× increase, signaling rising insolvency risk
--  Profit Margins (Gross, Operating, Net) fell sharply and all turned negative
--  Admin & Marketing Costs doubled (from 80K to 155K), while revenue dropped — showing inefficient spending
+
+- 📉 Revenue declined by **38.5%** (from 520K to 320K)  
+- 📈 COGS increased by **13.8%** — efficiency worsened despite falling sales  
+- 🔻 Net Profit dropped from +$100K to –$290K — deep losses by Year 5  
+- 💣 Year-End Debt rose from $80K to $520K — **6.5** increase  
+- ❌ All profit margins turned negative in final years  
+- 💸 Admin & Marketing doubled while revenue fell — inefficient cost control
 
 ---
 
 ## 💡 Recommendations
 
-- 🧾 **Cut unnecessary overhead** — especially administrative and marketing costs  
-- ⚙️ **Audit and optimize COGS** — improve supply chain and operational efficiency  
-- 💳 **Restructure debt** — avoid new borrowing until financial stabilization  
-- 🎯 **Focus on profitable segments** — shut down unprofitable business lines  
-- 📊 **Implement strong financial analytics** — enable data-driven decisions and forecasting
+- ✂️ **Cut overhead** — reduce unnecessary admin and marketing expenses  
+- 🔧 **Audit COGS** — improve supply chain and cost efficiency  
+- 💳 **Restructure debt** — freeze new borrowing, focus on repayment  
+- 📌 **Focus on profitable segments** — eliminate loss-making operations  
+- 📈 **Adopt data-driven analytics** — implement financial dashboards and forecasting
 
 ---
 
