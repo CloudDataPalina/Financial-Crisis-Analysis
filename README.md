@@ -11,7 +11,7 @@ Using Python, pandas, NumPy, and matplotlib, we analyze profitability, expenses,
 ## 📁 Project Structure
 
 ```
-BankruptcyAnalysis/
+Technoprom-Financial-Analysis/
 ├── techno_prom_financials.csv    ← Source dataset (5 years of annual data)
 ├── analysis.ipynb                ← Jupyter notebook with full EDA
 └── README.md                     ← This file
