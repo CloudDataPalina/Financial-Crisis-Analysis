@@ -1,4 +1,4 @@
-# 📉 Technoprom Ltd.: Financial Crisis Analysis (EDA Project)
+#📉 Financial Crisis Analysis
 
 📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Technoprom-Financial-Analysis/blob/main/analysis.ipynb)
 
@@ -11,13 +11,13 @@ Using Python, pandas, NumPy, and matplotlib, we analyze profitability, expenses,
 ## 📁 Project Structure
 
 ```
-Technoprom-Financial-Analysis/
-├── techno_prom_financials.csv    ← Source dataset (5 years of annual data)
-├── analysis.ipynb                ← Jupyter notebook with full EDA
-└── README.md                     ← This file
+Financial-Crisis-Analysis/
+├── financial_crisis_data.csv     ← Clean dataset (5 years of data)
+├── analysis.ipynb                ← Full Jupyter analysis
+└── README.md                     ← Documentation
 
 
-```
+---
 
 ## ⚙️ Tools & Technologies
 
@@ -45,11 +45,10 @@ Data source: [`techno_prom_financials.csv`](techno_prom_financials.csv)
 
 ## 📂 Data Preprocessing
 
-Before analysis, the dataset underwent a basic preprocessing stage:
-- Checked for consistency and missing values
-- Converted to appropriate data types
-- Cleaned from duplicates and anomalies
-- Formatted for further visualization and metric calculations
+Before analysis, the dataset was:
+- Checked for completeness and logical consistency  
+- Converted to appropriate data types (e.g. float)  
+- Formatted for visualization and KPI calculation
 
 ---
 
@@ -65,34 +64,50 @@ Before analysis, the dataset underwent a basic preprocessing stage:
 
 ## 📈 Visualizations
 
-- 📉 **Net Profit vs Year-End Debt** — declining profitability vs rising debt  
-- 📊 **5-Year Change in Financial Indicators** — percent changes in key metrics  
-- 📈 **Trendlines of Gross, Operating, and Net Profit Margins** — margin deterioration over time  
-- 🥧 **Expense Structure in Year 5** — cost distribution in the final year  
-- 🔻 **Revenue vs Operating Expenses** — visualizing when costs exceeded income  
+The analysis includes the following key visualizations:
 
-📌 *All visualizations are included in [`analysis.ipynb`](analysis.ipynb).*
+- 📊 **5-Year Dynamics of Key Indicators** — change in revenue, profit, and costs  
+- 🥧 **Expense Structure in Year 5** — breakdown of final-year spending  
+- 🔻 **Revenue vs. Expenses** — comparison of income vs cost growth  
+- 📉 **Dynamics of Net Profit and Debt Load** — illustrating deepening losses and rising liabilities  
+- 📈 **Financial Ratio Trends by Year** — Gross, Operating, and Net margin trends
+
+📌 *All plots are available in [`analysis.ipynb`](analysis.ipynb).*
 
 ---
 
 ## 🔍 Key Findings
 
-- 📉 Revenue declined by **38.5%** (from 520K to 320K)  
-- 📈 COGS increased by **13.8%** — efficiency worsened despite falling sales  
-- 🔻 Net Profit dropped from +$100K to –$290K — deep losses by Year 5  
-- 💣 Year-End Debt rose from $80K to $520K — **6.5** increase  
-- ❌ All profit margins turned negative in final years  
-- 💸 Admin & Marketing doubled while revenue fell — inefficient cost control
+- Revenue declined by **38.5%** — indicating potential market share loss or shrinking demand  
+- Net profit turned negative and fell nearly fourfold — confirming persistent losses  
+- COGS rose despite declining revenue — signaling a drop in operational efficiency  
+- Year-end debt increased **6.5×** — highlighting growing dependency on external financing  
+- Admin and marketing expenses doubled — yet failed to produce revenue growth  
+- All profitability margins (gross, operating, net) turned negative — confirming a deepening crisis
+
+---
+
+## 🧠 Key Hypotheses
+
+- Loss of clients and contracts, decreasing demand, and growing competition  
+- Poor cost control and inefficient marketing spending  
+- Excessive borrowing to offset operational losses and liquidity issues
 
 ---
 
 ## 💡 Recommendations
 
-- ✂️ **Cut overhead** — reduce unnecessary admin and marketing expenses  
-- 🔧 **Audit COGS** — improve supply chain and cost efficiency  
-- 💳 **Restructure debt** — freeze new borrowing, focus on repayment  
-- 📌 **Focus on profitable segments** — eliminate loss-making operations  
-- 📈 **Adopt data-driven analytics** — implement financial dashboards and forecasting
+- ✂️ **Cut overhead** — especially administrative and marketing expenses  
+- 🔧 **Review COGS** — improve efficiency through supply chain audits  
+- 💳 **Restructure debt** — freeze new borrowing, negotiate with creditors  
+- 📌 **Focus on profitable segments** — shut down unprofitable operations  
+- 📊 **Implement financial analytics** — enable data-driven decision-making
+
+---
+
+## 🧾 Conclusion
+
+Technoprom Ltd. is undergoing a deep financial crisis and faces a high risk of bankruptcy if no corrective actions are taken. Only a strategic transformation — improving operational efficiency, reducing debt, and strengthening financial discipline — can stabilize the company and rebuild sustainable growth.
 
 ---
 
