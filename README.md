@@ -17,6 +17,7 @@ Financial-Crisis-Analysis/
 └── README.md                     ← Documentation
 
 
+
 ---
 
 ## ⚙️ Tools & Technologies
@@ -32,13 +33,13 @@ Financial-Crisis-Analysis/
 ## 📊 Dataset Overview
 
 The dataset includes:
-- 📈 Revenue, Gross Profit, Net Profit
-- 💰 Cost of Goods Sold (COGS), Admin & Marketing Expenses
-- 📉 Year-End Debt, Loan Interest, Depreciation
-- 🧾 Cash Flow, Inventory, Payables
-- 👥 Employee Headcount
+- 📈 Revenue, Gross Profit, Net Profit  
+- 💰 Cost of Goods Sold (COGS), Admin & Marketing Expenses  
+- 📉 Year-End Debt, Loan Interest, Depreciation  
+- 🧾 Cash Flow, Inventory, Payables  
+- 👥 Employee Headcount  
 
-Data source: [`techno_prom_financials.csv`](techno_prom_financials.csv)  
+Data source: [`financial_crisis_data.csv`](financial_crisis_data.csv)  
 *The dataset was manually created by the author for this project.*
 
 ---
@@ -47,7 +48,7 @@ Data source: [`techno_prom_financials.csv`](techno_prom_financials.csv)
 
 Before analysis, the dataset was:
 - Checked for completeness and logical consistency  
-- Converted to appropriate data types (e.g. float)  
+- Converted to appropriate data types (e.g., float)  
 - Formatted for visualization and KPI calculation
 
 ---
