@@ -9,7 +9,7 @@ Using Python, pandas, NumPy, and matplotlib, we analyze profitability, expenses,
 
 ## 📁 Project Structure
 
-```Financial-Crisis-Analysis/
+Financial-Crisis-Analysis/
 ├── financial_crisis_data.csv ← Clean dataset (5 years of data)
 ├── analysis.ipynb ← Full Jupyter analysis
 └── README.md ← Documentation
