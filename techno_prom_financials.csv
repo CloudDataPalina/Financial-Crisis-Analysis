@@ -1,0 +1,16 @@
+﻿Indicator,Year 1,Year 2,Year 3,Year 4,Year 5
+Revenue,520,470,410,360,320
+COGS,290,300,310,320,330
+Gross_Profit,230,170,100,40,-10
+Administrative_Expenses,60,70,85,95,100
+Marketing_PR,20,30,45,50,55
+EBITDA,150,70,-30,-105,-165
+Depreciation,25,30,35,40,40
+Loan_Interest,15,20,30,40,50
+Other_Expenses,10,15,20,30,35
+Net_Profit,100,5,-115,-215,-290
+Year_End_Debt,80,150,250,380,520
+Cash_Flow,90,-10,-100,-200,-250
+Inventory,40,60,80,95,110
+Payables,30,45,65,90,120
+Headcount,120,130,140,135,130
