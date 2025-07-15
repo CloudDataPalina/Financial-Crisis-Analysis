@@ -5,7 +5,6 @@
 This project investigates the 5-year financial collapse of the fictional company **Technoprom Ltd.**  
 Using Python, pandas, NumPy, and matplotlib, we analyze profitability, expenses, and debt to uncover the root causes of the crisis.
 
-
 ---
 
 ## 📁 Project Structure
