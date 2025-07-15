@@ -1,4 +1,4 @@
-#📉 Financial Crisis Analysis
+# 📉 Financial Crisis Analysis
 
 📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Technoprom-Financial-Analysis/blob/main/analysis.ipynb)
 
