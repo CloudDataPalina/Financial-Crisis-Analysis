@@ -42,11 +42,15 @@ Data source: [`financial_crisis_data.csv`](financial_crisis_data.csv)
 ---
 
 ## 📂 Data Preprocessing
+Before starting the analysis, a technical audit of the data was performed to ensure its accuracy and suitability for use:
 
-Before analysis, the dataset was:
-- Checked for completeness and logical consistency  
-- Converted to appropriate data types (e.g., float)  
-- Formatted for visualization and KPI calculation
+📥 Data was loaded from a CSV file using pandas
+🔍 Table structure, data types, missing values, and duplicates were checked
+🧼 Numeric values were converted from int to float to improve calculation precision
+🧾 Categorical values (indicators) were checked for uniqueness
+📊 Descriptive statistics revealed sharp fluctuations in profit, indicating financial instability
+
+All key preprocessing steps were successfully completed — the dataset is ready for full-scale analysis.
 
 ---
 
@@ -70,7 +74,7 @@ The analysis includes the following key visualizations:
 - 📉 **Dynamics of Net Profit and Debt Load** — illustrating deepening losses and rising liabilities  
 - 📈 **Financial Ratio Trends by Year** — Gross, Operating, and Net margin trends
 
-📌 *All plots are available in [`analysis.ipynb`](analysis.ipynb).*
+ *All plots are available in [`analysis.ipynb`](analysis.ipynb).*
 
 ---
 
