@@ -49,7 +49,7 @@ Before starting the analysis, a technical audit of the data was performed to ens
 - 🧾 Categorical values (indicators) were checked for uniqueness
 - 📊 Descriptive statistics revealed sharp fluctuations in profit, indicating financial instability
 
-All key preprocessing steps were successfully completed — the dataset is ready for full-scale analysis.
+*All key preprocessing steps were successfully completed — the dataset is ready for full-scale analysis.*
 
 ---
 
