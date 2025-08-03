@@ -10,9 +10,21 @@ Using Python, pandas, NumPy, and matplotlib, we analyze profitability, expenses,
 
 ```
 Financial-Crisis-Analysis/
-├── financial_crisis_data.csv   ← Clean dataset (5 years of data)
-├── analysis.ipynb              ← Full Jupyter analysis
-└── README.md                   ← Documentation
+├── data/
+│ └── financial_crisis_data.csv             ← Clean dataset (5 years of data)
+├── images/
+│ ├── revenue_vs_expenses.png
+│ ├── expense_structure_pie.png
+│ ├── margins_5y_bar.png
+│ ├── top5_expenses_bar.png
+│ └── profit_trend_line.png                ← All generated visualizations
+├── output/
+│ └── profitability_margins.csv            ← Calculated table with key financial ratios
+├── src/
+│ └── analysis.py                          ← Full Python script for ETL + visualizations + export
+├── analysis.ipynb                         ← Jupyter version for step-by-step logic
+├── requirements.txt                       ← Python dependencies
+└── README.md                              ← Project documentation
 ```
 
 ---
@@ -36,7 +48,7 @@ The dataset includes:
 - 🧾 Cash Flow, Inventory, Payables  
 - 👥 Employee Headcount  
 
-Data source: [`financial_crisis_data.csv`](financial_crisis_data.csv)  
+Data source: [`financial_crisis_data.csv`](/data/financial_crisis_data.csv)  
 *The dataset was manually created by the author for this project.*
 
 ---
@@ -65,7 +77,7 @@ Before starting the analysis, a technical audit of the data was performed to ens
 
 ## 📈 Visualizations
 
-The analysis includes the following key visualizations:
+Key charts generated and saved to the [`images/`](./images) folder:
 
 - 📊 **5-Year Dynamics of Key Indicators** — change in revenue, profit, and costs  
 - 🥧 **Expense Structure in Year 5** — breakdown of final-year spending  
@@ -75,6 +87,30 @@ The analysis includes the following key visualizations:
 
  *All plots are available in [`analysis.ipynb`](analysis.ipynb).*
 
+---
+## 📄 Exported Results
+
+- ✅ Final margins table: [`profitability_margins.csv`](./output/profitability_margins.csv)  
+- ✅ All charts auto-saved to [`images/`](./images)  
+- ✅ Interactive code: [`analysis.ipynb`](./analysis.ipynb)  
+- ✅ Full automated script: [`src/analysis.py`](./src/analysis.py)
+
+---
+## 🚀 How to Run
+
+# 1. Clone the repository
+```bash
+git clone https://github.com/CloudDataPalina/Financial-Crisis-Analysis.git
+cd Financial-Crisis-Analysis
+```
+# 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+# 3. Run the Python script
+```bash
+python src/analysis.py
+```
 ---
 
 ## 🔍 Key Findings
