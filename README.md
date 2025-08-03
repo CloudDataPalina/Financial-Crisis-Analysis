@@ -1,4 +1,8 @@
 # 📉 Financial Crisis Analysis
+![status](https://img.shields.io/badge/status-passed-brightgreen)
+
+### ✅ Project Status
+This project is **functionally complete and tested**, but **open for future improvements and enhancements**.
 
 📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Technoprom-Financial-Analysis/blob/main/analysis.ipynb)
 
