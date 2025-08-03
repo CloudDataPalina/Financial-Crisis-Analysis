@@ -83,15 +83,16 @@ Before starting the analysis, a technical audit of the data was performed to ens
 
 Key charts generated and saved to the [`images/`](./images) folder:
 
-- 📊 **5-Year Dynamics of Key Indicators** — change in revenue, profit, and costs  
-- 🥧 **Expense Structure in Year 5** — breakdown of final-year spending  
-- 🔻 **Revenue vs. Expenses** — comparison of income vs cost growth  
-- 📉 **Dynamics of Net Profit and Debt Load** — illustrating deepening losses and rising liabilities  
-- 📈 **Financial Ratio Trends by Year** — Gross, Operating, and Net margin trends
+- 📊 **[5-Year Dynamics of Key Indicators](./images/technoprom_5y_change.png)** — change in revenue, profit, and costs  
+- 🥧 **[Expense Structure in Year 5](./images/technoprom_expense_structure.png)** — breakdown of final-year spending  
+- 🔻 **[Revenue vs. Expenses](./images/technoprom_revenue_expenses.png)** — comparison of income vs cost growth  
+- 📉 **[Dynamics of Net Profit and Debt Load](./images/technoprom_netprofit_debtdynamics.png)** — illustrating deepening losses and rising liabilities  
+- 📈 **[Financial Ratio Trends by Year](./images/technoprom_financial_ratio_trends.png)** — Gross, Operating, and Net margin trends
 
- *All plots are available in [`analysis.ipynb`](analysis.ipynb).*
+ *All plots are available in [`analysis.ipynb`](./analysis.ipynb).*
 
 ---
+
 ## 📄 Exported Results
 
 - ✅ Final margins table: [`profitability_margins.csv`](./output/profitability_margins.csv)  
