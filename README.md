@@ -29,13 +29,13 @@ Financial-Crisis-Analysis/
 
 ---
 
-## ⚙️ Tools & Technologies
+## ⚙️ Skills & Tools
 
-- Python  
-- pandas  
-- NumPy  
-- matplotlib  
-- Jupyter Notebook  
+- `Python` : core programming language used for data analysis and scripting  
+- `pandas` : data transformation, cleaning, and manipulation of tabular data  
+- `NumPy` : efficient numerical operations and array-based calculations  
+- `matplotlib` : visualizing data with line, bar, pie, and other chart types  
+- `Jupyter Notebook` : interactive coding, data exploration, and documentation   
 
 ---
 
