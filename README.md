@@ -98,16 +98,16 @@ Key charts generated and saved to the [`images/`](./images) folder:
 ---
 ## 🚀 How to Run
 
-# 1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/CloudDataPalina/Financial-Crisis-Analysis.git
 cd Financial-Crisis-Analysis
 ```
-# 2. Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-# 3. Run the Python script
+### 3. Run the Python script
 ```bash
 python src/analysis.py
 ```
