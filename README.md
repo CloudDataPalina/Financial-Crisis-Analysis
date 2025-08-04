@@ -83,11 +83,11 @@ Before starting the analysis, a technical audit of the data was performed to ens
 
 Key charts generated and saved to the [`images/`](./images) folder:
 
-- 📊 **[5-Year Dynamics of Key Indicators](./images/technoprom_5y_change.png)** — change in revenue, profit, and costs  
-- 🥧 **[Expense Structure in Year 5](./images/technoprom_expense_structure.png)** — breakdown of final-year spending  
-- 🔻 **[Revenue vs. Expenses](./images/technoprom_revenue_expenses.png)** — comparison of income vs cost growth  
-- 📉 **[Dynamics of Net Profit and Debt Load](./images/technoprom_netprofit_debtdynamics.png)** — illustrating deepening losses and rising liabilities  
-- 📈 **[Financial Ratio Trends by Year](./images/technoprom_financial_ratio_trends.png)** — Gross, Operating, and Net margin trends
+-  **[5-Year Dynamics of Key Indicators](./images/technoprom_5y_change.png)** — change in revenue, profit, and costs  
+-  **[Expense Structure in Year 5](./images/technoprom_expense_structure.png)** — breakdown of final-year spending  
+-  **[Revenue vs. Expenses](./images/technoprom_revenue_expenses.png)** — comparison of income vs cost growth  
+-  **[Dynamics of Net Profit and Debt Load](./images/technoprom_netprofit_debtdynamics.png)** — illustrating deepening losses and rising liabilities  
+-  **[Financial Ratio Trends by Year](./images/technoprom_financial_ratio_trends.png)** — Gross, Operating, and Net margin trends
 
  *All plots are available in [`analysis.ipynb`](./analysis.ipynb).*
 
@@ -139,11 +139,11 @@ python src/analysis.py
 
 ## 💡 Recommendations
 
-- ✂️ **Cut overhead** — especially administrative and marketing expenses  
-- 🔧 **Review COGS** — improve efficiency through supply chain audits  
-- 💳 **Restructure debt** — freeze new borrowing, negotiate with creditors  
-- 📌 **Focus on profitable segments** — shut down unprofitable operations  
-- 📊 **Implement financial analytics** — enable data-driven decision-making
+-  **Cut overhead** — especially administrative and marketing expenses  
+-  **Review COGS** — improve efficiency through supply chain audits  
+-  **Restructure debt** — freeze new borrowing, negotiate with creditors  
+-  **Focus on profitable segments** — shut down unprofitable operations  
+-  **Implement financial analytics** — enable data-driven decision-making
 
 ---
 
