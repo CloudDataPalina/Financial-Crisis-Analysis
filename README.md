@@ -59,11 +59,11 @@ Data source: [`financial_crisis_data.csv`](/data/financial_crisis_data.csv)
 
 ## 📂 Data Preprocessing
 Before starting the analysis, a technical audit of the data was performed to ensure its accuracy and suitability for use:
-- 📥 Data was loaded from a CSV file using pandas
-- 🔍 Table structure, data types, missing values, and duplicates were checked
-- 🧼 Numeric values were converted from int to float to improve calculation precision
-- 🧾 Categorical values (indicators) were checked for uniqueness
-- 📊 Descriptive statistics revealed sharp fluctuations in profit, indicating financial instability
+-  Data was loaded from a CSV file using pandas
+-  Table structure, data types, missing values, and duplicates were checked
+-  Numeric values were converted from int to float to improve calculation precision
+-  Categorical values (indicators) were checked for uniqueness
+-  Descriptive statistics revealed sharp fluctuations in profit, indicating financial instability
 
 *All key preprocessing steps were successfully completed — the dataset is ready for full-scale analysis.*
 
@@ -95,10 +95,10 @@ Key charts generated and saved to the [`images/`](./images) folder:
 
 ## 📄 Exported Results
 
-- ✅ Final margins table: [`profitability_margins.csv`](./output/profitability_margins.csv)  
-- ✅ All charts auto-saved to [`images/`](./images)  
-- ✅ Interactive code: [`analysis.ipynb`](./analysis.ipynb)  
-- ✅ Full automated script: [`src/analysis.py`](./src/analysis.py)
+-  Final margins table: [`profitability_margins.csv`](./output/profitability_margins.csv)  
+-  All charts auto-saved to [`images/`](./images)  
+-  Interactive code: [`analysis.ipynb`](./analysis.ipynb)  
+-  Full automated script: [`src/analysis.py`](./src/analysis.py)
 
 ---
 ## 🚀 How to Run
